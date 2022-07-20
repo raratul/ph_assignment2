@@ -104,7 +104,7 @@ section {
 }
 
 .blog:after {
-    content: '6';
+    content: '';
     display: grid;
     clear: both;
 }
@@ -115,6 +115,12 @@ section {
     transition: 0.2s ease-in;
 }
 
+.blog .btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .blog .button .btn2 {
     display: none;
@@ -130,11 +136,11 @@ section {
     transition: 0.5s ease;
 }
 
-.blog #btnBox:checked~.btn2 {
+.blog #btnBox:checked~.btn-area .btn2 {
     display: block;
 }
 
-.blog #btnBox:checked~.btn1 {
+.blog #btnBox:checked~.btn-area .btn1 {
     display: none;
 }
 

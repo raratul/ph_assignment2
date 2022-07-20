@@ -94,6 +94,7 @@ section {
     width: 312px;
     height: 242px;
     border-radius: 15px;
+    background-image: linear-gradient(rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1));
     border: whitesmoke solid;
 }
 
