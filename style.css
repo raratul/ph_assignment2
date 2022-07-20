@@ -151,3 +151,58 @@ footer div a {
 .fa-twitter-square {
     font-size: 60px;
 }
+
+
+/* Tablet View */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    section {
+
+        grid-template-rows: 1fr 3fr;
+
+    }
+
+    .selection {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        background-color: white;
+    }
+
+    .up-match {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) {
+
+    header {
+
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+
+    section {
+        grid-template-rows: 1fr 3fr;
+
+    }
+
+    .selection {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .up-match {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
